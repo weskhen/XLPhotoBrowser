@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "wesk 痕" => "wujian516411567@163.com" }
   s.source       = { :git => "https://github.com/weskhen/XLPhotoBrowser.git", :tag => "0.0.1" }
-  s.source_files = 'XLPhotoBrowser/XLPhotoBrowser/*.{h,m}'  
+  s.source_files = 'XLPhotoBrowser/XLPhotoBrowser/**/*.{h,m}'  
   s.public_header_files = 'XLPhotoBrowser/XLPhotoBrowser/**/*.h'   #公开头文件地址
   s.requires_arc = true
   s.dependency 'SDWebImage', '~> 3.0'

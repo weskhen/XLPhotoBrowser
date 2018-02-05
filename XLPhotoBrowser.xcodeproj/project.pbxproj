@@ -21,11 +21,11 @@
 		E09B83C82023F1CE002EC9B7 /* XLPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83BA2023F1CE002EC9B7 /* XLPhotoBrowserView.m */; };
 		E09B83C92023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83C12023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m */; };
 		E09B83CA2023F1CE002EC9B7 /* XLPhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83C32023F1CE002EC9B7 /* XLPhotoCollectionView.m */; };
-		E09B83CD2023F4DF002EC9B7 /* XLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83CC2023F4DF002EC9B7 /* XLController.m */; };
 		E09B83D02023F61F002EC9B7 /* XLMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83CF2023F61F002EC9B7 /* XLMutableDictionary.m */; };
-		E09B83D32023F6DA002EC9B7 /* XLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */; };
-		E09B83D62023F730002EC9B7 /* XLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83D52023F730002EC9B7 /* XLWindow.m */; };
 		E09B83D9202453E6002EC9B7 /* icon_defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E09B83D8202453E5002EC9B7 /* icon_defaultImage.png */; };
+		E09B846020288109002EC9B7 /* XLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B845A20288109002EC9B7 /* XLController.m */; };
+		E09B846120288109002EC9B7 /* XLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B845B20288109002EC9B7 /* XLWindow.m */; };
+		E09B846220288109002EC9B7 /* XLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B845F20288109002EC9B7 /* XLNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,15 +57,15 @@
 		E09B83C12023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		E09B83C22023F1CE002EC9B7 /* XLPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserView.h; sourceTree = "<group>"; };
 		E09B83C32023F1CE002EC9B7 /* XLPhotoCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCollectionView.m; sourceTree = "<group>"; };
-		E09B83CB2023F4DF002EC9B7 /* XLController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLController.h; sourceTree = "<group>"; };
-		E09B83CC2023F4DF002EC9B7 /* XLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLController.m; sourceTree = "<group>"; };
 		E09B83CE2023F61F002EC9B7 /* XLMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMutableDictionary.h; sourceTree = "<group>"; };
 		E09B83CF2023F61F002EC9B7 /* XLMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMutableDictionary.m; sourceTree = "<group>"; };
-		E09B83D12023F6DA002EC9B7 /* XLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNavigationController.h; sourceTree = "<group>"; };
-		E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNavigationController.m; sourceTree = "<group>"; };
-		E09B83D42023F730002EC9B7 /* XLWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLWindow.h; sourceTree = "<group>"; };
-		E09B83D52023F730002EC9B7 /* XLWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLWindow.m; sourceTree = "<group>"; };
 		E09B83D8202453E5002EC9B7 /* icon_defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_defaultImage.png; sourceTree = "<group>"; };
+		E09B845A20288109002EC9B7 /* XLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLController.m; sourceTree = "<group>"; };
+		E09B845B20288109002EC9B7 /* XLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLWindow.m; sourceTree = "<group>"; };
+		E09B845C20288109002EC9B7 /* XLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLNavigationController.h; sourceTree = "<group>"; };
+		E09B845D20288109002EC9B7 /* XLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLWindow.h; sourceTree = "<group>"; };
+		E09B845E20288109002EC9B7 /* XLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLController.h; sourceTree = "<group>"; };
+		E09B845F20288109002EC9B7 /* XLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLNavigationController.m; sourceTree = "<group>"; };
 		E829E8AB65AC868AC70D7B99 /* Pods-XLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoBrowser/Pods-XLPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,7 +119,6 @@
 		E09B83852023F1A7002EC9B7 /* XLPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				E09B83D72023FAA9002EC9B7 /* XLBaseView */,
 				E09B839C2023F1BD002EC9B7 /* XLPhotoBrowser */,
 				E09B83862023F1A7002EC9B7 /* AppDelegate.h */,
 				E09B83872023F1A7002EC9B7 /* AppDelegate.m */,
@@ -138,6 +137,7 @@
 		E09B839C2023F1BD002EC9B7 /* XLPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				E09B845920288109002EC9B7 /* XLBaseView */,
 				E09B83B82023F1CE002EC9B7 /* XLDeviceOrientationInstance.h */,
 				E09B83B72023F1CE002EC9B7 /* XLDeviceOrientationInstance.m */,
 				E09B83BB2023F1CE002EC9B7 /* XLPhotoBrowerHeader.h */,
@@ -160,15 +160,15 @@
 			path = XLPhotoBrowser;
 			sourceTree = "<group>";
 		};
-		E09B83D72023FAA9002EC9B7 /* XLBaseView */ = {
+		E09B845920288109002EC9B7 /* XLBaseView */ = {
 			isa = PBXGroup;
 			children = (
-				E09B83CB2023F4DF002EC9B7 /* XLController.h */,
-				E09B83CC2023F4DF002EC9B7 /* XLController.m */,
-				E09B83D12023F6DA002EC9B7 /* XLNavigationController.h */,
-				E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */,
-				E09B83D42023F730002EC9B7 /* XLWindow.h */,
-				E09B83D52023F730002EC9B7 /* XLWindow.m */,
+				E09B845A20288109002EC9B7 /* XLController.m */,
+				E09B845B20288109002EC9B7 /* XLWindow.m */,
+				E09B845C20288109002EC9B7 /* XLNavigationController.h */,
+				E09B845D20288109002EC9B7 /* XLWindow.h */,
+				E09B845E20288109002EC9B7 /* XLController.h */,
+				E09B845F20288109002EC9B7 /* XLNavigationController.m */,
 			);
 			path = XLBaseView;
 			sourceTree = "<group>";
@@ -300,18 +300,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E09B83C42023F1CE002EC9B7 /* XLPhotoModel.m in Sources */,
+				E09B846020288109002EC9B7 /* XLController.m in Sources */,
 				E09B838B2023F1A7002EC9B7 /* ViewController.m in Sources */,
-				E09B83CD2023F4DF002EC9B7 /* XLController.m in Sources */,
 				E09B83962023F1A7002EC9B7 /* main.m in Sources */,
 				E09B83CA2023F1CE002EC9B7 /* XLPhotoCollectionView.m in Sources */,
-				E09B83D62023F730002EC9B7 /* XLWindow.m in Sources */,
 				E09B83C72023F1CE002EC9B7 /* XLPhotoBrowserController.m in Sources */,
+				E09B846120288109002EC9B7 /* XLWindow.m in Sources */,
 				E09B83C82023F1CE002EC9B7 /* XLPhotoBrowserView.m in Sources */,
 				E09B83C92023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m in Sources */,
 				E09B83D02023F61F002EC9B7 /* XLMutableDictionary.m in Sources */,
 				E09B83C52023F1CE002EC9B7 /* XLWaitingView.m in Sources */,
+				E09B846220288109002EC9B7 /* XLNavigationController.m in Sources */,
 				E09B83882023F1A7002EC9B7 /* AppDelegate.m in Sources */,
-				E09B83D32023F6DA002EC9B7 /* XLNavigationController.m in Sources */,
 				E09B83C62023F1CE002EC9B7 /* XLDeviceOrientationInstance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
