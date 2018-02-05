@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		619312EFA5B7CFF2B53C0772 /* libPods-XLPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C72E26EC7AE54C9A71D6EEFA /* libPods-XLPhotoBrowser.a */; };
+		E09B83882023F1A7002EC9B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83872023F1A7002EC9B7 /* AppDelegate.m */; };
+		E09B838B2023F1A7002EC9B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B838A2023F1A7002EC9B7 /* ViewController.m */; };
+		E09B838E2023F1A7002EC9B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09B838C2023F1A7002EC9B7 /* Main.storyboard */; };
+		E09B83902023F1A7002EC9B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09B838F2023F1A7002EC9B7 /* Assets.xcassets */; };
+		E09B83932023F1A7002EC9B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09B83912023F1A7002EC9B7 /* LaunchScreen.storyboard */; };
+		E09B83962023F1A7002EC9B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83952023F1A7002EC9B7 /* main.m */; };
+		E09B83C42023F1CE002EC9B7 /* XLPhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83B42023F1CD002EC9B7 /* XLPhotoModel.m */; };
+		E09B83C52023F1CE002EC9B7 /* XLWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83B52023F1CD002EC9B7 /* XLWaitingView.m */; };
+		E09B83C62023F1CE002EC9B7 /* XLDeviceOrientationInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83B72023F1CE002EC9B7 /* XLDeviceOrientationInstance.m */; };
+		E09B83C72023F1CE002EC9B7 /* XLPhotoBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83B92023F1CE002EC9B7 /* XLPhotoBrowserController.m */; };
+		E09B83C82023F1CE002EC9B7 /* XLPhotoBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83BA2023F1CE002EC9B7 /* XLPhotoBrowserView.m */; };
+		E09B83C92023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83C12023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m */; };
+		E09B83CA2023F1CE002EC9B7 /* XLPhotoCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83C32023F1CE002EC9B7 /* XLPhotoCollectionView.m */; };
+		E09B83CD2023F4DF002EC9B7 /* XLController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83CC2023F4DF002EC9B7 /* XLController.m */; };
+		E09B83D02023F61F002EC9B7 /* XLMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83CF2023F61F002EC9B7 /* XLMutableDictionary.m */; };
+		E09B83D32023F6DA002EC9B7 /* XLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */; };
+		E09B83D62023F730002EC9B7 /* XLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B83D52023F730002EC9B7 /* XLWindow.m */; };
+		E09B83D9202453E6002EC9B7 /* icon_defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E09B83D8202453E5002EC9B7 /* icon_defaultImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C25E3854A7AFA44DBFF2AAE /* Pods-XLPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoBrowser/Pods-XLPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		C72E26EC7AE54C9A71D6EEFA /* libPods-XLPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09B83832023F1A7002EC9B7 /* XLPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09B83862023F1A7002EC9B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E09B83872023F1A7002EC9B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E09B83892023F1A7002EC9B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E09B838A2023F1A7002EC9B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E09B838D2023F1A7002EC9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E09B838F2023F1A7002EC9B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E09B83922023F1A7002EC9B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E09B83942023F1A7002EC9B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E09B83952023F1A7002EC9B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E09B83B42023F1CD002EC9B7 /* XLPhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoModel.m; sourceTree = "<group>"; };
+		E09B83B52023F1CD002EC9B7 /* XLWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLWaitingView.m; sourceTree = "<group>"; };
+		E09B83B62023F1CE002EC9B7 /* XLPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		E09B83B72023F1CE002EC9B7 /* XLDeviceOrientationInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDeviceOrientationInstance.m; sourceTree = "<group>"; };
+		E09B83B82023F1CE002EC9B7 /* XLDeviceOrientationInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDeviceOrientationInstance.h; sourceTree = "<group>"; };
+		E09B83B92023F1CE002EC9B7 /* XLPhotoBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoBrowserController.m; sourceTree = "<group>"; };
+		E09B83BA2023F1CE002EC9B7 /* XLPhotoBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoBrowserView.m; sourceTree = "<group>"; };
+		E09B83BB2023F1CE002EC9B7 /* XLPhotoBrowerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowerHeader.h; sourceTree = "<group>"; };
+		E09B83BC2023F1CE002EC9B7 /* XLPhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoModel.h; sourceTree = "<group>"; };
+		E09B83BD2023F1CE002EC9B7 /* XLWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLWaitingView.h; sourceTree = "<group>"; };
+		E09B83BE2023F1CE002EC9B7 /* XLPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		E09B83BF2023F1CE002EC9B7 /* XLPhotoCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCollectionView.h; sourceTree = "<group>"; };
+		E09B83C02023F1CE002EC9B7 /* XLPhotoBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserController.h; sourceTree = "<group>"; };
+		E09B83C12023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		E09B83C22023F1CE002EC9B7 /* XLPhotoBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserView.h; sourceTree = "<group>"; };
+		E09B83C32023F1CE002EC9B7 /* XLPhotoCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCollectionView.m; sourceTree = "<group>"; };
+		E09B83CB2023F4DF002EC9B7 /* XLController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLController.h; sourceTree = "<group>"; };
+		E09B83CC2023F4DF002EC9B7 /* XLController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLController.m; sourceTree = "<group>"; };
+		E09B83CE2023F61F002EC9B7 /* XLMutableDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMutableDictionary.h; sourceTree = "<group>"; };
+		E09B83CF2023F61F002EC9B7 /* XLMutableDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMutableDictionary.m; sourceTree = "<group>"; };
+		E09B83D12023F6DA002EC9B7 /* XLNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNavigationController.h; sourceTree = "<group>"; };
+		E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLNavigationController.m; sourceTree = "<group>"; };
+		E09B83D42023F730002EC9B7 /* XLWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLWindow.h; sourceTree = "<group>"; };
+		E09B83D52023F730002EC9B7 /* XLWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLWindow.m; sourceTree = "<group>"; };
+		E09B83D8202453E5002EC9B7 /* icon_defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_defaultImage.png; sourceTree = "<group>"; };
+		E829E8AB65AC868AC70D7B99 /* Pods-XLPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLPhotoBrowser/Pods-XLPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E09B83802023F1A7002EC9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				619312EFA5B7CFF2B53C0772 /* libPods-XLPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A828F1EA5D69AF2AA632E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C25E3854A7AFA44DBFF2AAE /* Pods-XLPhotoBrowser.debug.xcconfig */,
+				E829E8AB65AC868AC70D7B99 /* Pods-XLPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DFA21862E29A7A31A6DBD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C72E26EC7AE54C9A71D6EEFA /* libPods-XLPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E09B837A2023F1A7002EC9B7 = {
+			isa = PBXGroup;
+			children = (
+				E09B83852023F1A7002EC9B7 /* XLPhotoBrowser */,
+				E09B83842023F1A7002EC9B7 /* Products */,
+				15A828F1EA5D69AF2AA632E4 /* Pods */,
+				5DFA21862E29A7A31A6DBD7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E09B83842023F1A7002EC9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E09B83832023F1A7002EC9B7 /* XLPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09B83852023F1A7002EC9B7 /* XLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E09B83D72023FAA9002EC9B7 /* XLBaseView */,
+				E09B839C2023F1BD002EC9B7 /* XLPhotoBrowser */,
+				E09B83862023F1A7002EC9B7 /* AppDelegate.h */,
+				E09B83872023F1A7002EC9B7 /* AppDelegate.m */,
+				E09B83892023F1A7002EC9B7 /* ViewController.h */,
+				E09B838A2023F1A7002EC9B7 /* ViewController.m */,
+				E09B838C2023F1A7002EC9B7 /* Main.storyboard */,
+				E09B83D8202453E5002EC9B7 /* icon_defaultImage.png */,
+				E09B838F2023F1A7002EC9B7 /* Assets.xcassets */,
+				E09B83912023F1A7002EC9B7 /* LaunchScreen.storyboard */,
+				E09B83942023F1A7002EC9B7 /* Info.plist */,
+				E09B83952023F1A7002EC9B7 /* main.m */,
+			);
+			path = XLPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E09B839C2023F1BD002EC9B7 /* XLPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				E09B83B82023F1CE002EC9B7 /* XLDeviceOrientationInstance.h */,
+				E09B83B72023F1CE002EC9B7 /* XLDeviceOrientationInstance.m */,
+				E09B83BB2023F1CE002EC9B7 /* XLPhotoBrowerHeader.h */,
+				E09B83BE2023F1CE002EC9B7 /* XLPhotoBrowserConfig.h */,
+				E09B83C02023F1CE002EC9B7 /* XLPhotoBrowserController.h */,
+				E09B83B92023F1CE002EC9B7 /* XLPhotoBrowserController.m */,
+				E09B83C22023F1CE002EC9B7 /* XLPhotoBrowserView.h */,
+				E09B83BA2023F1CE002EC9B7 /* XLPhotoBrowserView.m */,
+				E09B83BF2023F1CE002EC9B7 /* XLPhotoCollectionView.h */,
+				E09B83C32023F1CE002EC9B7 /* XLPhotoCollectionView.m */,
+				E09B83B62023F1CE002EC9B7 /* XLPhotoCollectionViewCell.h */,
+				E09B83C12023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m */,
+				E09B83BC2023F1CE002EC9B7 /* XLPhotoModel.h */,
+				E09B83B42023F1CD002EC9B7 /* XLPhotoModel.m */,
+				E09B83BD2023F1CE002EC9B7 /* XLWaitingView.h */,
+				E09B83B52023F1CD002EC9B7 /* XLWaitingView.m */,
+				E09B83CE2023F61F002EC9B7 /* XLMutableDictionary.h */,
+				E09B83CF2023F61F002EC9B7 /* XLMutableDictionary.m */,
+			);
+			path = XLPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		E09B83D72023FAA9002EC9B7 /* XLBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				E09B83CB2023F4DF002EC9B7 /* XLController.h */,
+				E09B83CC2023F4DF002EC9B7 /* XLController.m */,
+				E09B83D12023F6DA002EC9B7 /* XLNavigationController.h */,
+				E09B83D22023F6DA002EC9B7 /* XLNavigationController.m */,
+				E09B83D42023F730002EC9B7 /* XLWindow.h */,
+				E09B83D52023F730002EC9B7 /* XLWindow.m */,
+			);
+			path = XLBaseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E09B83822023F1A7002EC9B7 /* XLPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E09B83992023F1A7002EC9B7 /* Build configuration list for PBXNativeTarget "XLPhotoBrowser" */;
+			buildPhases = (
+				311434BC9A6C780C7FCF6F92 /* [CP] Check Pods Manifest.lock */,
+				E09B837F2023F1A7002EC9B7 /* Sources */,
+				E09B83802023F1A7002EC9B7 /* Frameworks */,
+				E09B83812023F1A7002EC9B7 /* Resources */,
+				B8AC6E27B7C4E0B7969BC726 /* [CP] Embed Pods Frameworks */,
+				79F7CF24E1ECEAC964F244EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLPhotoBrowser;
+			productName = XLPhotoBrowser;
+			productReference = E09B83832023F1A7002EC9B7 /* XLPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E09B837B2023F1A7002EC9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = wujian;
+				TargetAttributes = {
+					E09B83822023F1A7002EC9B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E09B837E2023F1A7002EC9B7 /* Build configuration list for PBXProject "XLPhotoBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E09B837A2023F1A7002EC9B7;
+			productRefGroup = E09B83842023F1A7002EC9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E09B83822023F1A7002EC9B7 /* XLPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E09B83812023F1A7002EC9B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09B83D9202453E6002EC9B7 /* icon_defaultImage.png in Resources */,
+				E09B83932023F1A7002EC9B7 /* LaunchScreen.storyboard in Resources */,
+				E09B83902023F1A7002EC9B7 /* Assets.xcassets in Resources */,
+				E09B838E2023F1A7002EC9B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		311434BC9A6C780C7FCF6F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F7CF24E1ECEAC964F244EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPhotoBrowser/Pods-XLPhotoBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8AC6E27B7C4E0B7969BC726 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLPhotoBrowser/Pods-XLPhotoBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E09B837F2023F1A7002EC9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09B83C42023F1CE002EC9B7 /* XLPhotoModel.m in Sources */,
+				E09B838B2023F1A7002EC9B7 /* ViewController.m in Sources */,
+				E09B83CD2023F4DF002EC9B7 /* XLController.m in Sources */,
+				E09B83962023F1A7002EC9B7 /* main.m in Sources */,
+				E09B83CA2023F1CE002EC9B7 /* XLPhotoCollectionView.m in Sources */,
+				E09B83D62023F730002EC9B7 /* XLWindow.m in Sources */,
+				E09B83C72023F1CE002EC9B7 /* XLPhotoBrowserController.m in Sources */,
+				E09B83C82023F1CE002EC9B7 /* XLPhotoBrowserView.m in Sources */,
+				E09B83C92023F1CE002EC9B7 /* XLPhotoCollectionViewCell.m in Sources */,
+				E09B83D02023F61F002EC9B7 /* XLMutableDictionary.m in Sources */,
+				E09B83C52023F1CE002EC9B7 /* XLWaitingView.m in Sources */,
+				E09B83882023F1A7002EC9B7 /* AppDelegate.m in Sources */,
+				E09B83D32023F6DA002EC9B7 /* XLNavigationController.m in Sources */,
+				E09B83C62023F1CE002EC9B7 /* XLDeviceOrientationInstance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E09B838C2023F1A7002EC9B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09B838D2023F1A7002EC9B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E09B83912023F1A7002EC9B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E09B83922023F1A7002EC9B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E09B83972023F1A7002EC9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E09B83982023F1A7002EC9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E09B839A2023F1A7002EC9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C25E3854A7AFA44DBFF2AAE /* Pods-XLPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B776HGZTR8;
+				INFOPLIST_FILE = XLPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaolian.XLPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E09B839B2023F1A7002EC9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E829E8AB65AC868AC70D7B99 /* Pods-XLPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B776HGZTR8;
+				INFOPLIST_FILE = XLPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaolian.XLPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E09B837E2023F1A7002EC9B7 /* Build configuration list for PBXProject "XLPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09B83972023F1A7002EC9B7 /* Debug */,
+				E09B83982023F1A7002EC9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E09B83992023F1A7002EC9B7 /* Build configuration list for PBXNativeTarget "XLPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E09B839A2023F1A7002EC9B7 /* Debug */,
+				E09B839B2023F1A7002EC9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E09B837B2023F1A7002EC9B7 /* Project object */;
+}
